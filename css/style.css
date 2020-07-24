@@ -1,0 +1,75 @@
+#AboutUsSection img{
+    box-shadow: 4px 1px 10px -1px #333;
+}
+.Section-title{
+    /*    border: 5px solid;*/
+    text-align: center;
+    color: #0099ff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.Section-title span{
+    /*    border: 5px solid #cccccc;*/
+    height: 1px;
+    background-color: #cccccc;
+    display:block;
+    width: 11%;
+    margin: auto;
+}
+#AboutUsSection, #TestimonialSection,#ourteamSection,#contactusSection{
+    padding-top: 70px;
+}
+#TestimonialSection{
+    background-image: url(../images/testimonials-bg4.jpg);
+    padding: 70px 0;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 70px;
+}
+#TestimonialSection .container{
+    max-width: 900px;
+}
+.testimonial-box{
+    background-color: rgba(255,255,255,0.8);
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 40px 15px;
+    padding-top: 20px;
+
+}
+.testimonial-box img{
+    float: left;
+    margin-right: 20px;
+
+
+}
+#contactusSection{
+    background-image: url(../images/contactus.jpg);
+    background-attachment: fixed;
+    margin-top: 70px;
+}
+#footerSection{
+    background-color: black;
+    color: #fff;
+}
+#footerSection a{
+    color: #fff;
+}
+#footerSection ul{
+    padding: 0;
+}
+#footerSection ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.copy-right{
+    background-color: #0099ff;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+/*    font-size: 16px;*/
+/*    margin-top: 50px;*/
+}
+
+
+
